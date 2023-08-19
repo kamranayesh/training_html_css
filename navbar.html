@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    a {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      background-color: #0cc1ee;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #1905f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropbtn:hover {
+      background-color: #1905f1;
+    }
+
+    a:hover {
+      background-color: #1905f1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">File</button>
+      <div class="dropdown-content">
+        <a href="#">Open</a>
+        <a href="#">Save</a>
+        <a href="#">Exit</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">View</button>
+      <div class="dropdown-content">
+        <a href="#">Zoom In</a>
+        <a href="#">Zoom Out</a>
+        <a href="#">Restore Default Zoom</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Help</button>
+      <div class="dropdown-content">
+        <a href="#">About</a>
+        <a href="#">Help Center</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
